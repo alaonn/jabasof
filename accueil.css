@@ -1,0 +1,37 @@
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.header {
+    padding:10px 16px;
+    height: 200px;
+    background: darkblue;
+    top: 40px;
+}
+
+.top {
+    padding : 16px;
+    height: 320px;
+    background:pink;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+.bottom {
+    height: 700px; /* Space in here for search */
+    background:#333333;
+
+}
+
+.sticky {
+    position : fixed;
+    top : 0;
+    width : 100%;
+}
+
+.sticky + .bottom {
+    padding-top: 500px;
+}
